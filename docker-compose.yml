@@ -1,0 +1,6 @@
+services:
+  backend:
+    image: back
+    container_name: dates-backend
+    ports:
+      - 8080:8080
