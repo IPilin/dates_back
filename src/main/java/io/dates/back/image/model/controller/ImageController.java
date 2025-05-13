@@ -1,6 +1,6 @@
-package io.dates.back.controller.image;
+package io.dates.back.image.model.controller;
 
-import io.dates.back.model.error.NotFoundException;
+import io.dates.back.error.model.NotFoundException;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.MediaType;

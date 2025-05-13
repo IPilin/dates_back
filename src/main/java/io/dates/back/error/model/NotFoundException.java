@@ -1,7 +1,8 @@
-package io.dates.back.model.error;
+package io.dates.back.error.model;
+
 
 public class NotFoundException extends RuntimeException {
-    public NotFoundException(String message) {
+    public NotFoundException(final String message) {
         super(message);
     }
 }

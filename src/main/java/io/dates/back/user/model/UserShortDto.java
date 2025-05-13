@@ -1,9 +1,7 @@
-package io.dates.back.model.user;
+package io.dates.back.user.model;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
-import java.util.Collection;
 
 @Data
 @Builder
@@ -11,17 +9,12 @@ import java.util.Collection;
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class UserCardDto {
+public class UserShortDto {
     @EqualsAndHashCode.Include
     long id;
     String name;
     String age;
     String city;
-    int km;
-    Collection<String> photoUrls;
-    String marriage;
     String gender;
-    String religion;
-    String height;
-    String education;
+    String avatarUrl;
 }
